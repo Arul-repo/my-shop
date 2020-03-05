@@ -1,0 +1,10 @@
+.pizza{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    /* overflow: scroll; */
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 50px;
+}

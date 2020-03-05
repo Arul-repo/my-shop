@@ -1,0 +1,8 @@
+ul.nav li{
+    float: left;
+}
+
+ul.nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}

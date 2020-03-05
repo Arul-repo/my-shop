@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.mainRow{
+    height: 40px;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 10px auto;
+}
+.secRow{
+    height: 40px;
+    background-color: #6c22ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.secRow p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.logo{
+    font-size: 26px;
+    color: #6c22ce;
+    border: 1px solid #6c22ce;
+    border-radius: 6px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mainRig{
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin: 10px auto;
+} 
+.mainLeft {
+    float: left;
+    width: 70%;
+}
+.login{
+    font-size: 14px;
+    color: #6c22ce;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.member{
+    padding: 5px 10px;
+    border: 1px solid #6c22ce;
+    font-size: 14px;
+    color: #6c22ce;
+    border-radius: 3px;
+    text-decoration: none;
+}

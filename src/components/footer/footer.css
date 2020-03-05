@@ -1,0 +1,23 @@
+footer{
+    background-color: #6c22ce;
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+footer .logo{
+    float: left;
+    width: 25%;
+    padding: 7px;
+    color: #FFFFFF;
+}
+footer .rightSection{
+    float: right;
+}
+footer .rightSection ul{
+    margin: 0;
+}
+footer .rightSection ul li{
+    float: left;
+    color: #ffffff;
+    padding: 7px 15px;
+}
