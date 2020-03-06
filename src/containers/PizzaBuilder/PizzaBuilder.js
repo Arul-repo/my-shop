@@ -1,5 +1,5 @@
 import React from "react";
-import Aux from "../../hoc/aux";
+import Auxiliary from "../../hoc/auxiliary";
 import Pizza from "../../components/Pizza/Pizza";
 import BuildControls from "../../components/Pizza/buildcontrols/buildcontrols";
 import Modal from "../../components/UI/Modal/Modal";
@@ -150,12 +150,12 @@ class PizzaBuilder extends React.Component {
             orderSummary = this.state.errorHappen? <p className="errorMsg">Error</p> : <Spinner />;
         }
         return (
-            <Aux>
+            <Auxiliary>
                 <Modal show={this.state.orderSum} closeModal ={this.closeModal} cancel={this.props.cancel} continue={this.props.continue} >
                     {orderSummary}
                 </Modal>
                 {PizzaMaker}
-            </Aux>
+            </Auxiliary>
         );
     }
 }
